@@ -12,11 +12,8 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/register", (req, res) => {
-  res.send("register page");
+  res.send("Salman , register page");
 });
-
-
-
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`);
