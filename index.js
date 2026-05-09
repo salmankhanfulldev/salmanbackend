@@ -8,16 +8,14 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.send("Hello World! about page");
-});
-
-app.get("/login", (req, res) => {
-  res.send("<h1>Login Page Welcomed</h1>");
+  res.send("about page");
 });
 
 app.get("/register", (req, res) => {
-  res.send("<h1>Register Page Welcomed</h1>");
+  res.send("register page");
 });
+
+
 
 
 app.listen(process.env.PORT, () => {
